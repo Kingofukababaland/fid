@@ -1,0 +1,150 @@
+/* ========================= */
+/* GENERAL PAGE STYLING */
+/* ========================= */
+
+body {
+  background-image: url("images/bluebackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #111;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ========================= */
+/* HEADINGS */
+/* ========================= */
+
+h1, h2 {
+  font-family: "Oswald", Arial, sans-serif;
+  color: #000;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* ========================= */
+/* SECTIONS */
+/* ========================= */
+
+.banner {
+  background-color: rgba(135, 206, 235, 0.9); /* slight transparency */
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 10px;
+}
+
+/* ========================= */
+/* TEXT + LISTS */
+/* ========================= */
+
+.banner p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* ========================= */
+/* LINKS + HOVER */
+/* ========================= */
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links a {
+  padding: 8px 14px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.links a:hover {
+  background-color: black;
+  color: #87ceeb;
+  text-decoration: none;
+}
+
+/* ========================= */
+/* GALLERY */
+/* ========================= */
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/* VIDEO */
+/* ========================= */
+
+video {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* ========================= */
+/* ARTWORK PAGE */
+/* ========================= */
+
+.art-box {
+  background-color: #87ceeb;
+  border: 8px solid #87ceeb;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.large-art {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+}
