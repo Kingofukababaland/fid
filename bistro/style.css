@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #2f5d5b;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f5f5f5;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f6efdf;
+}
+
+header img {
+  width: 130px;
+  height: auto;
+}
+
+h1 {
+  font-family: "Julius Sans One", Verdana, sans-serif;
+  color: #1f4546;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #1f4546;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: orange;
+  color: #1f4546;
+}
+
+main {
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: rgba(31, 69, 70, 0.9);
+  border-radius: 12px;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+h2 {
+  color: orange;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.order-button {
+  width: 235px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #f6efdf;
+  color: #1f4546;
+}
