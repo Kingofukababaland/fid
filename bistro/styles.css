@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #f5f5f5;
+  background-color: #2f5d5b;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* overlay for readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 93, 91, 0.85);
+  z-index: -1;
+}
+
+header {
+  background-color: #f6efdf;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+
+header img {
+  width: 130px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 8px 0 0 0;
+  color: #1f4546;
+  letter-spacing: 4px;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto 0 auto;
+}
+
+/* ✅ CENTERED NAVBAR */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a,
+nav span {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+nav a {
+  color: cyan;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcc66; /* pseudo-class */
+}
+
+nav .plain {
+  color: #ffffff;
+}
+
+h2 {
+  color: orange;
+  text-align: center;
+  margin: 18px 0 10px 0;
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 28px 0;
+}
+
+/* pizza button */
+.order-box {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.order-box img {
+  width: 235px;
+  height: auto;
+  display: inline-block;
+}
+
+.order-box img:hover {
+  opacity: 0.9;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.location p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+footer {
+  width: 80%;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
